@@ -9,13 +9,13 @@ public class Main {
             "Hector", "EMP002", 170, 150
         );
 
-        System.out.println("=== Empleado Tiempo Completo ===");
+        System.out.println("Empleado Tiempo Completo");
         emp1.mostrarInfo();
         System.out.println("Salario final: " + emp1.calcularSalario());
         System.out.println("Bonificación: " + emp1.calcularBonificacion());
         System.out.println("Seguro: " + emp1.aplicarDescuentoSeguro());
 
-        System.out.println("\n=== Empleado Freelance ===");
+        System.out.println("\nEmpleado Freelance");
         emp2.mostrarInfo();
         System.out.println("Salario final: " + emp2.calcularSalario());
         System.out.println("Bonificación: " + emp2.calcularBonificacion());
